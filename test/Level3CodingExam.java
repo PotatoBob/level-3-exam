@@ -30,7 +30,7 @@ public class Level3CodingExam {
 
 		assertEquals("pope francis", new VoteProcessor().calculateElectionWinner(votes));
 	}
-
+	
 	/** If neither candidate has more votes than the other, report a tie by returning the String "TIE". **/
 	@Test
 	public void testATie() {
@@ -47,6 +47,7 @@ public class Level3CodingExam {
 	 * To complete this exercise, you need to count the number of matching entries in 2 HashMaps. 
 	 * More information about the problem is here: http://bit.ly/stanford-exam-part7
 	 * This question is part of Stanford University's CS106 final exam. **/
+	
 	@Test
 	public void testAddMatching() throws Exception {
 		HashMap<String, String> hashmap1 = new HashMap<String, String>();
@@ -66,6 +67,7 @@ public class Level3CodingExam {
 		assertEquals(2, new HashMapCalculator().commonKeyValuePairs(hashmap1, hashmap2));
 	}
 }
+
 
 
 
