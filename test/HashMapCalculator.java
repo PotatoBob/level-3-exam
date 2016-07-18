@@ -14,7 +14,6 @@ public class HashMapCalculator {
 	HashMapCalculator() {
 		
 	}
-	@SuppressWarnings("unchecked")
 	int commonKeyValuePairs(HashMap<String, String> hashmap1, HashMap<String, String> hashmap2) {
 		int count = 0;
 		for (String string : hashmap1.keySet()) {
